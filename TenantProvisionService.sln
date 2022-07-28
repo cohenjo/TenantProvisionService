@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantProvisionService", "TenantProvisionService\TenantProvisionService.csproj", "{0AECDBAA-5976-4B10-8F7F-C4BBBEF57C69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2E71672-2C77-494F-90AA-17665541F1A7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantProvisionService.Tests", "TenantProvisionService.Tests\TenantProvisionService.Tests.csproj", "{D23D40D6-88EA-4AC7-9F71-9BB776E24FE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AECDBAA-5976-4B10-8F7F-C4BBBEF57C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AECDBAA-5976-4B10-8F7F-C4BBBEF57C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AECDBAA-5976-4B10-8F7F-C4BBBEF57C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AECDBAA-5976-4B10-8F7F-C4BBBEF57C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23D40D6-88EA-4AC7-9F71-9BB776E24FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23D40D6-88EA-4AC7-9F71-9BB776E24FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23D40D6-88EA-4AC7-9F71-9BB776E24FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23D40D6-88EA-4AC7-9F71-9BB776E24FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {127AC218-E426-4576-B566-D438F16645C4}
+	EndGlobalSection
+EndGlobal
